@@ -1,0 +1,52 @@
+
+h1 {
+    text-align: center;
+    color: #fbc687;
+    font-size: 5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 5px 0 #900c3f;
+    margin: 50px 0;
+}
+
+
+.btn {
+    text-align: center;
+    margin: 10px;
+  }
+.drum{
+  border: 10px solid #404b6992;
+  border-radius: 15px;
+}
+.guitar{
+  border: 10px solid #404b6992;
+  border-radius: 15px;
+}
+.tabla{
+  border: 10px solid #404b6992;
+  border-radius: 15px;
+}
+  
+
+  #drum{
+    position: absolute;
+    left: 15%;
+    top:20%;
+    font-family:cursive;
+  }
+  #guitar{
+    position: absolute;
+    left:70%;
+    top: 10%;
+    font-family:cursive;
+  }
+
+  #tabla{
+    position: absolute;
+    left: 60%;
+    top:60%;
+    font-family:cursive;
+  }
+
+
+

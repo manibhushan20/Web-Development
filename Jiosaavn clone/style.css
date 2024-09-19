@@ -1,0 +1,116 @@
+ @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Libre+Baskerville:wght@700&family=Varela+Round&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Libre+Baskerville:wght@700&family=Ubuntu&family=Ubuntu+Condensed&family=Varela+Round&display=swap');
+
+body{
+    background-color: rgba(250, 235, 215, 0.599);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family:'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    
+    color: rgb(128, 128, 128);
+
+}
+
+.brand img{
+    height: 65px;
+    border-radius: 100px;
+    padding: 0 8px;
+}
+
+nav ul li{
+    margin: 0px 12PX;
+}
+
+.heading{
+    font-weight: bolder;
+    color: black;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: rgba(240, 255, 255, 0.307);
+    color:white;
+    font-family:'Varela Round', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    
+    background-image: url("./files/smartphone.png");
+}
+
+.bottom{
+    position: sticky;
+    height:130px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+#myProgressBar{
+    width: 75vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin:34px;
+}
+
+.icons i{
+  cursor: pointer;
+  padding: 10px;
+  color: rgba(128, 128, 128, 0.481);
+}
+
+
+.songItem-container{
+    margin-top: 30px;
+}
+.songItem{
+    height:50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 30px 0;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width:43px;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+.songInfo{
+    position:fixed;
+    right: 8vw;
+    margin-bottom: 100Px;
+    font-family:'varela Round', sans-serif ;
+}
+
+.songInfo img{
+    opacity:0;
+    transition:opacity 0.4s ease-in;
+    border-radius: 10px;  
+}
+
+

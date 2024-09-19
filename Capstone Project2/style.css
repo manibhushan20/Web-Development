@@ -1,0 +1,18 @@
+#heading{
+    background-color: rgba(127, 133, 255, 0.581);
+}
+
+#title{
+    background-color: rgb(220, 245, 245);
+}
+
+.container > h3{
+    color: blue;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
